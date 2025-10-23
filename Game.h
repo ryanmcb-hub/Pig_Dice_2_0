@@ -15,4 +15,5 @@ public:
     void display_rules();
     void play_game();
 };
+
 #endif //GAME_H

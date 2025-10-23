@@ -21,6 +21,5 @@ public:
 
 private:
     void roll();
-
 };
 #endif //TURN_H
