@@ -12,5 +12,4 @@ public:
     int get_die_value();
 };
 
-
 #endif //DIE_H

@@ -12,7 +12,6 @@ Die::Die(int S) {
     m_die_value = 0;
 }
 
-
 void Die::set_die_value() {
     std::random_device rd;
     std::mt19937 gen(rd());

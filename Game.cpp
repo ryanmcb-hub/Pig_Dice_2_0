@@ -7,6 +7,7 @@ int Game::get_game_score(){}
 void Game::set_game_over(){}
 bool Game::reset_game_over(){}
 void Game::display_rules(){}
+
 void Game::play_game() {
     while (!m_game_over) {
         m_myTurn.take_turn();

@@ -45,7 +45,6 @@ void Turn::take_turn() {
             m_turn_over = true;
         }
     }
-
 }
 
 void Turn::roll() {
