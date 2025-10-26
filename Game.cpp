@@ -42,7 +42,7 @@ void Game::display_rules() {
 
 // Main game loop
 void Game::play_game() {
-    // Random engine (local)
+    // Random
     std::random_device rd;
     std::mt19937 rng(rd());
 
@@ -52,7 +52,7 @@ void Game::play_game() {
     std::cin >> userSides;
 
     // Validate sides and make it the die
-    // Die in Turn has 6 by default
+    // Die in Turn has 6 by default = 2 OR =4, ect
     if (userSides == 2 || userSides == 4 || userSides == 6 || userSides == 8 || userSides == 12) {
         std::cout << "Using a " << userSides << "-sided die.\n";
     } else {
